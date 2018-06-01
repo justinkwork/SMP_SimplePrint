@@ -1,6 +1,6 @@
 # SMP_SimplePrint
 This will generate a simple print view of a given work item in the Cireson Portal for Service Manager.
-It will list all properties that have values in a single grid.  It will also show the Action Log, Reviwers(if the Work Item is a Review Activity), and optionally the Work Item History. 
+It will list all properties that have values in a single grid.  It will also show the Action Log, Reviewers(if the Work Item is a Review Activity),and the Work Item History. 
 
 ## Install
 Copy all files to the CustomSpace folder in your CiresonPortal folder.  The lines from custom.js can simply be added to your existing CustomSpace/custom.js file.   
