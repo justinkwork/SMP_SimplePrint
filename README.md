@@ -20,3 +20,6 @@ There are a couple of URL tags that can be added to the task registration for cu
 /view/printView?workItemType=Incident&workItemId=IR123&showHistory=false  
 * showLog - Set this to false to disable the Action Log. URL Example:  
 /view/printView?workItemType=Incident&workItemId=IR123&showLog=false  
+
+### Notes
+When using the 'Print Activities' task, Chrome may try to block all the windows from coming up at once.  If you let it allow popups from your portal, they should all open.
