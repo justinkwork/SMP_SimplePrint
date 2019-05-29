@@ -2,7 +2,7 @@ function printActivities(viewModel) {
 	var a;
 	for (a = 0; a < viewModel.Activity.length; a++) {
 		if (viewModel.Activity[a].FullClassName === "Review Activity") {
-			window.open('/view/printView?workItemType=ReviewActivity&workItemId=' + viewModel.Activity[a].Id, '$_blank');
+			window.open('/view/printView?workItemType=ReviewActivity&workItemId=' + viewModel.Activity[a].Id, '_blank');
 		}
 		else {
 			window.open('/view/printView?workItemType=Activity&workItemId=' + viewModel.Activity[a].Id, '_blank');
